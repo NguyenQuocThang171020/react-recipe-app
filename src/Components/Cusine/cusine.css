@@ -1,0 +1,53 @@
+.cusine{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width : 1350px) {
+    .cusine{
+        display: none;
+    }
+    .title-type{
+        display: none;
+    }
+    .dish-food{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        height: 100%;
+
+    }
+    .food-today{
+        align-items: center;
+        justify-content: center;
+    }
+    .dishcard-page{
+    position: relative;
+    width: 320px;
+    height: 200px;
+}
+}
+@media screen and (max-width : 1024px) {
+    .dish-container{
+        display: none;
+    }
+    .title-food1{
+        display: none;
+    }
+}
+@media screen and (max-width : 750px) {
+    .dish-food{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width : 400px) {
+    .dishcard-page{
+        width: 270px;
+        height: 160px;
+    }
+}

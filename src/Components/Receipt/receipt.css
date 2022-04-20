@@ -1,0 +1,136 @@
+.detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.infomation-detail{
+    width: 40%;
+    height: 100%;
+}
+.title-receipt{
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.img-receipt{
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.receipt{
+    width: 60%;
+    height: 100%;
+}
+.receipt button{
+    border: 1px solid black;
+    margin-left: 50px;
+    width: 120px;
+    height: 40px;
+}
+.receipt button.active{
+    background: black;
+    color: white;
+}
+.receipt button:hover{
+    background: gray;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+.instructions-box{
+    width: 80%;
+    margin : 30px 30px;
+}
+.instruction-text{
+    font-size: 18px;
+    text-align: left;
+}
+.ingredients-box{
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.ingredients-text{
+    font-size: 18px;
+    text-align: left;
+}
+@media screen and (max-width : 1400px) {
+    .img-receipt{
+        width: 380px;
+        height: 250px;
+    }
+}
+@media screen and (max-width : 1024px) {
+    .img-receipt{
+        width: 700px;
+        height: 400px;
+    }
+    .infomation-detail{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin: 20px 0 20px;
+    }
+    .detail{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .receipt{
+        width: 80%;
+        height: 100%;
+    }
+    .instruction-text{
+        font-size: 20px;
+        width: 120%;
+        text-align: left;
+    }
+    .ingredients-text{
+        font-size: 20px;
+        width: 120%;
+        text-align: left;
+    }
+}
+@media screen and (max-width : 750px) {
+    .img-receipt{
+        width: 380px;
+        height: 250px;
+    }
+}
+@media screen and (max-width : 550px) {
+    .img-receipt{
+        width: 320px;
+        height: 200px;
+    }
+    .receipt button{
+        border: 1px solid black;
+        margin-left: 50px;
+        width: 100px;
+        height: 30px;
+    }
+    .receipt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: -25px;
+    }
+
+    .button-receipt{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        left: 0;
+    }
+    .text-receipt{
+        width: 100%;
+        height: 100%;
+    }
+    .ingredients-text{
+        font-size: 20px;
+        width: 100%;
+        text-align: left;
+    }
+}

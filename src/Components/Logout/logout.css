@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+.logout-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 20px;
+    font-family: "Poppins",sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.logout{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    background: #F8F8FF;
+}
+.logout:hover{
+    background: #c0c0c0c0;
+}
+.photo-user{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.user-login{
+    width: 100px;
+    margin:5px 0;
+}
+.btn-logout{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+.btn-logout:hover{
+    color: #FFF;
+}
+.title {
+    font-size: 40px;
+    margin-left: 8%;
+    font-weight: bold;
+    font-family: 'Square Peg', cursive;
+    cursor: pointer;
+}
+@media screen and (max-width : 600px) {
+    .title {
+        font-size: 30px;
+    }
+    .photo-user{
+        width: 20px;
+        height: 20px;
+    }
+    .user-login{
+        width: 75px;
+        margin:5px 0;
+    }
+    .btn-logout{
+        width: 75px;
+        height: 25px;
+        cursor: pointer;
+        background: none;
+        border: none;
+        color: black;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 5px;
+        transition: all 0.5s ease;
+    }
+   
+}
