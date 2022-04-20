@@ -9,7 +9,7 @@ const Receipt = () => {
   const param = useParams();
   const [detail, setDetail] = useState({});
   const [activeTab, setActiveTab] = useState("instructions");
-  const getDetail = async () => {
+  const getDetail = async() => {
     const res = await axios.get(
       `https://api.spoonacular.com/recipes/${param.id}/information?apiKey=94c9864dcf114f608095504ce376bf7f`
     );
@@ -18,7 +18,7 @@ const Receipt = () => {
   };
   useEffect(() => {
     getDetail();
-  }, [param.id]);
+  },[param.id]);
   return (
     <div className="home-page">
       <div className="caption">

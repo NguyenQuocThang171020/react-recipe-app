@@ -51,7 +51,7 @@ const Footer = () => {
          <div className='contact'>
           <p><FiMail/> Email:nagi.kusan1234@gmail.com </p>
           <p><GiRotaryPhone/> Phone : +84 111 111 111</p>
-          <p><AiOutlineGlobal/> Website : recipefood.netlify.app</p>
+          <p><AiOutlineGlobal/> Website : recipefood2022.netlify.app</p>
          </div>
          <div className='logo-icon'>
          <a href="facebook.com"><BsFacebook className="contact-icon" /></a> <br />
