@@ -69,4 +69,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-/*Link Website :https://625f99a5cf962e32e8717358--recipefood2022.netlify.app*/
+Link Website :https://625f99a5cf962e32e8717358--recipefood2022.netlify.app
